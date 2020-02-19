@@ -87,4 +87,3 @@ Parameter | Description | Default
 `serviceAccount.create` | If `true`, create a new service account | `true`
 `serviceAccount.name` | Service account to be used | None
 
-
