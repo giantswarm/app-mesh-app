@@ -88,4 +88,3 @@ Parameter | Description | Default
 `serviceAccount.name` | Service account to be used | None
 
 
-
