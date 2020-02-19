@@ -86,4 +86,3 @@ Parameter | Description | Default
 `rbac.pspEnabled` | If `true`, create and use a restricted pod security policy | `false`
 `serviceAccount.create` | If `true`, create a new service account | `true`
 `serviceAccount.name` | Service account to be used | None
-
