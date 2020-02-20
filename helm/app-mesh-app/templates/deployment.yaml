@@ -20,7 +20,7 @@ spec:
         prometheus.io/scrape: "true"
         {{- if .Values.podAnnotations }}
         {{- range $key, $value := .Values.podAnnotations }}
-          {{ $key }}: {{ $value | quote }}
+        {{ $key }}: {{ $value | quote }}
         {{- end }}
         {{- end }}
     spec:

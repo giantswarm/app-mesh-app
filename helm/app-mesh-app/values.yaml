@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
-region: ""
+region: "" # It is a requirement!
 
 image:
   repository: 602401143452.dkr.ecr.us-west-2.amazonaws.com/amazon/app-mesh-controller
@@ -28,6 +28,7 @@ tolerations: []
 affinity: {}
 
 podAnnotations: {}
+#    iam.amazonaws.com/role: "ROLE_NAME_CREATED"
 
 serviceAccount:
   # serviceAccount.create: Whether to create a service account or not
@@ -39,4 +40,4 @@ rbac:
   # rbac.create: `true` if rbac resources should be created
   create: true
   # rbac.pspEnabled: `true` if PodSecurityPolicy resources should be created
-  pspEnabled: false
+  pspEnabled: true
