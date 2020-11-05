@@ -4,7 +4,7 @@ description: App Mesh controller Helm chart for Kubernetes
 version: 0.4.0
 appVersion: 0.3.0
 home: https://github.com/giantswarm/app-mesh-app
-icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+icon: https://s.giantswarm.io/app-icons/1/png/app-mesh-app-light.png
 sources:
   - https://github.com/giantswarm/app-mesh-app
 maintainers:
