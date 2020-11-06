@@ -1,7 +1,7 @@
 apiVersion: v1
 name: app-mesh-app
 description: App Mesh controller Helm chart for Kubernetes
-version: 0.4.0
+version: "[[ .Version ]]"
 appVersion: 0.3.0
 home: https://github.com/giantswarm/app-mesh-app
 icon: https://s.giantswarm.io/app-icons/1/png/app-mesh-app-light.png
